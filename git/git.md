@@ -1,9 +1,5 @@
 # Guía Git 
 
-Una guía sencilla para empezar a usar Git sin complicarse.
-
----
-
 ## ¿Qué es Git?
 
 Git es una herramienta que guarda un **historial de todos los cambios** de un proyecto. Gracias a eso puedes ver cómo estaba el código antes, saber quién cambió qué y regresar a una versión anterior si algo sale mal.
@@ -77,38 +73,6 @@ gitGraph
 
 ---
 
-## Flujo de trabajo del día a día
-
-Estos son los pasos que vas a repetir casi siempre:
-
-```bash
-# 1. Ir a develop y traer lo último del remoto
-git switch develop
-git pull
-
-# 2. Crear tu rama y moverte a ella
-git switch -c feature/inicio-sesion
-
-# 3. Haces tus cambios en el código...
-
-# 4. Ver qué archivos cambiaste
-git status
-
-# 5. Preparar los cambios (meterlos a la caja)
-git add .
-
-# 6. Guardar un punto en el historial
-git commit -m "Agrego formulario de inicio de sesión"
-
-# 7. Subir tu rama a GitHub (la primera vez)
-git push -u origin feature/inicio-sesion
-
-#    Las siguientes veces basta con:
-git push
-```
-
----
-
 ## Comandos principales
 
 | Comando | ¿Qué hace? |
@@ -126,6 +90,7 @@ git push
 | `git merge nombre-rama` | Une los cambios de otra rama a la rama donde estás. |
 | `git branch -d nombre-rama` | Elimina una rama. |
 | `git log --oneline` | Muestra la lista de commits, uno por línea, con su mensaje. |
+| `git init` | Iniacializa un repositorio local|
 
 ---
 
