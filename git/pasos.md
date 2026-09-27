@@ -235,9 +235,7 @@ Si quieres que primero se visualize lo que ya estaba, pulsas el doble check que 
 
 **Ejemplo**
 
-<p>
-  <video src="../imgs/imgs_git/video_merge_editor.mp4" width="80%" controls></video>
-</p>
+![alt text](../imgs/imgs_git/video_merge_editor.gif)
 
 - Luego se te mostrar un mensaje de merge
 
